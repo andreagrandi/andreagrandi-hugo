@@ -1,0 +1,15 @@
+sidebar:
+  home: right  # Configure layout for home page
+  list: left   # Configure layout for list pages
+  single: false  # Configure layout for single pages
+  # Enable widgets in given order
+  widgets: [search, recent, categories, social, languages]
+logo:
+  subtitle: Software Engineer
+widgets:
+  social:
+    github: andreagrandi
+    mastodon: https://mastodon.social/@andreagrandi
+post_meta:
+  - date
+  - categories
