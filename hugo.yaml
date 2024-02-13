@@ -17,6 +17,9 @@ Params:
     social:
       github: andreagrandi
       mastodon: https://mastodon.social/@andreagrandi
+  post_meta:
+    - date
+    - categories
 menus:
   main:
   - name: Home
