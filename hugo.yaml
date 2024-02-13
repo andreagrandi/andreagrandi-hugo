@@ -13,3 +13,21 @@ Params:
     widgets: [search, recent, categories, social, languages]
   logo:
     subtitle: Software Engineer
+  widgets:
+    social:
+      github: andreagrandi
+      mastodon: https://mastodon.social/@andreagrandi
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: About
+    pageRef: /about
+    weight: 20
+  - name: Curriculum
+    pageRef: /cv
+    weight: 30
+permalinks:
+   page:
+     posts: /:year/:slug/
