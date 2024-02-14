@@ -1,9 +1,10 @@
+# mainroad theme configuration
 sidebar:
-    home: right  # Configure layout for home page
-    list: left   # Configure layout for list pages
-    single: false  # Configure layout for single pages
-    # Enable widgets in given order
-    widgets: [search, recent, categories, social, languages]
+  home: right  # Configure layout for home page
+  list: left   # Configure layout for list pages
+  single: false  # Configure layout for single pages
+  # Enable widgets in given order
+  widgets: [search, recent, categories, social, languages]
 logo:
   subtitle: Software Engineer
 widgets:
@@ -13,3 +14,4 @@ widgets:
 post_meta:
   - date
   - categories
+opengraph: true
