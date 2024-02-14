@@ -19,7 +19,8 @@ tags:
 slug: "how-to-show-cover-image-pelican-blog-posts"
 draft: false
 description: "How to add a cover image to Pelican based blog posts, so that when the article is shared on social media the image is shown in the preview."
-cover: "images/2024/02/pelican-website-banner.jpeg"
+images:
+- pelican-website-banner.jpeg
 ---
 
 Once you have written and published an article, it’s very likely that you will want to **share** it on **social media** or send to your friends on a messaging app. 
