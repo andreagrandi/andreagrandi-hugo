@@ -1,17 +1,39 @@
 # mainroad theme configuration
+# sidebar:
+#   home: right  # Configure layout for home page
+#   list: left   # Configure layout for list pages
+#   single: false  # Configure layout for single pages
+#   # Enable widgets in given order
+#   widgets: [search, recent, categories, social, languages]
+# logo:
+#   subtitle: Software Engineer
+# widgets:
+#   social:
+#     github: andreagrandi
+#     mastodon: https://mastodon.social/@andreagrandi
+# post_meta:
+#   - date
+#   - categories
+# opengraph: true
+
+# hugo-theme-stack configuration
+mainSections:
+  - posts
+featuredImageField: image
+rssFullContent: true
+footer:
+  since: 2007
+  customText:
 sidebar:
-  home: right  # Configure layout for home page
-  list: left   # Configure layout for list pages
-  single: false  # Configure layout for single pages
-  # Enable widgets in given order
-  widgets: [search, recent, categories, social, languages]
-logo:
-  subtitle: Software Engineer
-widgets:
-  social:
-    github: andreagrandi
-    mastodon: https://mastodon.social/@andreagrandi
-post_meta:
-  - date
-  - categories
-opengraph: true
+  emoji: 🦕
+  subtitle: Software Developer
+  avatar:
+      enabled: true
+      local: false
+      src: /about/images/me_pycon_2019_2.jpg
+menu:
+  main: []
+
+imageProcessing:
+  cover:
+    enabled: false

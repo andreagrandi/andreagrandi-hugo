@@ -1,7 +1,7 @@
 baseURL: https://www.andreagrandi.it
 languageCode: en-us
 title: Andrea Grandi
-theme: mainroad
+theme: hugo-theme-stack
 schema: true
 permalinks:
    page:
