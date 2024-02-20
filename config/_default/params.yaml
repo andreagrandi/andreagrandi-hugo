@@ -25,7 +25,7 @@ footer:
   since: 2007
   customText:
 sidebar:
-  emoji: 🦕
+  # emoji: 🦕
   subtitle: Software Developer
   avatar:
       enabled: true
@@ -37,3 +37,16 @@ menu:
 imageProcessing:
   cover:
     enabled: false
+
+widgets:
+  homepage:
+    - type: "search"
+    - type: "archives"
+      params:
+        limit: 5
+    - type: "categories"
+      params:
+        limit: 5
+    - type: "tag-cloud"
+      params:
+        limit: 10
