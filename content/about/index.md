@@ -1,9 +1,10 @@
 ---
 title: "About"
-date: 2024-02-13
+# date: 2024-02-13
 slug: "about"
 draft: false
 post_meta: false
+reading_time: false
 ---
 
 My name is **Andrea Grandi** and I live in **Italy**. I

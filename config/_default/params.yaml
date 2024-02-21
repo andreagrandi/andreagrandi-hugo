@@ -1,21 +1,3 @@
-# mainroad theme configuration
-# sidebar:
-#   home: right  # Configure layout for home page
-#   list: left   # Configure layout for list pages
-#   single: false  # Configure layout for single pages
-#   # Enable widgets in given order
-#   widgets: [search, recent, categories, social, languages]
-# logo:
-#   subtitle: Software Engineer
-# widgets:
-#   social:
-#     github: andreagrandi
-#     mastodon: https://mastodon.social/@andreagrandi
-# post_meta:
-#   - date
-#   - categories
-# opengraph: true
-
 # hugo-theme-stack configuration
 mainSections:
   - posts
@@ -23,7 +5,7 @@ featuredImageField: image
 rssFullContent: true
 footer:
   since: 2007
-  customText:
+  customText: source code available on <a href="https://github.com/andreagrandi/andreagrandi.it">GitHub</a>
 sidebar:
   # emoji: 🦕
   subtitle: Software Developer
@@ -37,6 +19,11 @@ menu:
 imageProcessing:
   cover:
     enabled: false
+  content:
+    enabled: false
+
+opengraph:
+  enabled: true
 
 widgets:
   homepage:
@@ -50,3 +37,10 @@ widgets:
     - type: "tag-cloud"
       params:
         limit: 10
+
+colorScheme:
+  # Display toggle
+  toggle: false
+
+  # Available values: auto, light, dark
+  default: light

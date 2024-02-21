@@ -26,13 +26,13 @@ So, what’s the problem? Well, as you can imagine, to do all of this, you need 
 
 Is this  possible from an iPad? I believed it wasn’t (since the official GitHub client is very limited on what you can do, and online IDEs like VsCode.dev requires an internet connection, and I would like to be able to write also when I’m offline), but thanks to this [blog post](https://www.marcogomiero.com/posts/2021/running-blog-ipad/) from **Marco Gomiero**, I recently found out it’s possible!
 
-[![Frankenstein Junior - It could work!](it-could-work.jpeg)]()
+![Frankenstein Junior - It could work!](it-could-work.jpeg)
 
 ## Working Copy: git client for iOS
 
 The most important part of my workflow would not be possible without this amazing git client.
 
-[![Working Copy](working-copy.jpeg)]()
+![Working Copy](working-copy.jpeg)
 
 [Working Copy](https://workingcopy.app/) is so far the best Git client you can find on iOS. It allows you to clone repositories and work offline. Checked out content is made available through the File explorer, so any iOS app has access to it and this means you can use any client to edit your files.
 
@@ -42,7 +42,7 @@ Following the suggestion from Marco’s blog post I decided to start using [this
 
 In case MWeb should not work for me, I’m planning to try a few others: [Textastic](https://www.textasticapp.com/), [iWriter Pro](https://serpensoft.info/index.html) and maybe [iA Writer](https://ia.net/writer) (but for its cost it has to be damn perfect!)
 
-[![MWeb](editing-markdown-with-mweb.jpeg)]()
+![MWeb](editing-markdown-with-mweb.jpeg)
 
 ## iOS Shortcuts and Automations
 
@@ -56,4 +56,3 @@ In my case I had to customise the flow quite a lot, either because I use Pelican
 ## Conclusion
 
 Thanks for reading my first blog post, entirely written from my iPad, while I was relaxing on my sofa. If you have any questions or suggestions for a good MarkDown editor for iOS, feel free to leave a comment.
-

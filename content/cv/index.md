@@ -1,6 +1,6 @@
 ---
 title: "Curriculum"
-date: 2024-02-13
+# date: 2024-02-13
 slug: "curriculum"
 draft: false
 post_meta: false
