@@ -1,3 +1,6 @@
+module:
+  imports:
+    - path: github.com/CaiJimmy/hugo-theme-stack/v3
 baseURL: https://www.andreagrandi.it
 languageCode: en-us
 title: Andrea Grandi
