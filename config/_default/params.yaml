@@ -44,3 +44,7 @@ colorScheme:
 
   # Available values: auto, light, dark
   default: light
+
+comments:
+  enabled: true
+  provider: disqus

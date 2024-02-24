@@ -6,3 +6,4 @@ permalinks:
    page:
      posts: /posts/:slug/
 paginate: 5
+disqusShortname: andrea-grandi
