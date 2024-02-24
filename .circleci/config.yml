@@ -61,7 +61,7 @@ workflows:
       - build
       - deploy-to-github:
           requires:
-            - hugo/build
+            - build
           filters:
             branches:
               only:
