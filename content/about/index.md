@@ -1,12 +1,10 @@
 ---
 title: "About"
-# date: 2024-02-13
 slug: "about"
 draft: false
 post_meta: false
 reading_time: false
-comments:
-  disabled: true
+comments: false
 ---
 
 My name is **Andrea Grandi** and I live in **Italy**. I

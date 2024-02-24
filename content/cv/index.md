@@ -1,11 +1,9 @@
 ---
 title: "Curriculum"
-# date: 2024-02-13
 slug: "curriculum"
 draft: false
 post_meta: false
-comments:
-  disabled: true
+comments: false
 ---
 
 ### Profile
