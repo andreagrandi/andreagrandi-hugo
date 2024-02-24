@@ -55,7 +55,6 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: false
-          destination: ${HUGO_OUTPUT_FOLDER}
           version: "0.123.3"
       # - build
       - deploy-to-github:
