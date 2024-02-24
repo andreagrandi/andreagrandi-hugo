@@ -6,9 +6,21 @@ executors:
     docker:
       - image: cimg/base:current
 jobs:
+  build:
+    executor: base-image-executor
+    steps:
+      - checkout
+      - run:
+          name: Build pages with Hugo
+          command: |
+            hugo
   deploy-to-github:
     executor: base-image-executor
     steps:
+      - run:
+          name: "Install system dependencies"
+          command: |
+            sudo apt-get update && sudo apt-get install -y rsync
       - deploy:
           name: Deploy static pages to Github Pages
           command: |
@@ -41,11 +53,12 @@ jobs:
 workflows:
   build_and_deploy:
     jobs:
-      - hugo/build:
-          html-proofer: false
-          destination: ${HUGO_OUTPUT_FOLDER}
-          version: "0.123.3"
-          source: ~/project
+      # - hugo/build:
+      #     html-proofer: false
+      #     destination: ${HUGO_OUTPUT_FOLDER}
+      #     version: "0.123.3"
+      #     source: ~/project
+      - build
       - deploy-to-github:
           requires:
             - hugo/build
