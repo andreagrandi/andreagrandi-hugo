@@ -9,10 +9,10 @@ jobs:
   build:
     executor: base-image-executor
     steps:
-      - checkout
-      - hugo/build:
-          html-proofer: true
-          source: public
+      # - checkout
+      # - hugo/build:
+      #     html-proofer: true
+      #     source: public
       - deploy:
           name: Deploy static pages to Github Pages
           command: |
@@ -45,4 +45,7 @@ jobs:
 workflows:
   build_and_deploy:
     jobs:
+      - hugo/build:
+          html-proofer: true
+          source: public
       - build
