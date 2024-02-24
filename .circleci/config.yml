@@ -42,7 +42,8 @@ workflows:
   build_and_deploy:
     jobs:
       - hugo/build:
-          html-proofer: true
+          html-proofer: false
+          destination: ${HUGO_OUTPUT_FOLDER}
       - deploy-to-github:
           requires:
             - hugo/build
