@@ -48,3 +48,6 @@ colorScheme:
 comments:
   enabled: true
   provider: disqus
+
+article:
+  readingTime: false
