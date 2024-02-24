@@ -43,4 +43,10 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: true
-      - deploy-to-github
+      - deploy-to-github:
+          requires:
+            - hugo/build
+          filters:
+            branches:
+              only:
+                - master
