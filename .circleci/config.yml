@@ -4,16 +4,16 @@ orbs:
 executors:
   base-image-executor:
     docker:
-      - image: cimg/base:current
+      - image: cimg/go:1.22.0
 jobs:
-  build:
-    executor: base-image-executor
-    steps:
-      - checkout
-      - run:
-          name: Build pages with Hugo
-          command: |
-            hugo
+  # build:
+  #   executor: base-image-executor
+  #   steps:
+  #     - checkout
+  #     - run:
+  #         name: Build pages with Hugo
+  #         command: |
+  #           hugo
   deploy-to-github:
     executor: base-image-executor
     steps:
@@ -53,15 +53,15 @@ jobs:
 workflows:
   build_and_deploy:
     jobs:
-      # - hugo/build:
-      #     html-proofer: false
-      #     destination: ${HUGO_OUTPUT_FOLDER}
-      #     version: "0.123.3"
-      #     source: ~/project
-      - build
+      - hugo/build:
+          html-proofer: false
+          destination: ${HUGO_OUTPUT_FOLDER}
+          version: "0.123.3"
+          source: ~/project
+      # - build
       - deploy-to-github:
           requires:
-            - build
+            - hugo/build
           filters:
             branches:
               only:
