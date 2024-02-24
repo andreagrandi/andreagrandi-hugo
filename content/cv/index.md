@@ -4,6 +4,8 @@ title: "Curriculum"
 slug: "curriculum"
 draft: false
 post_meta: false
+comments:
+  disabled: true
 ---
 
 ### Profile
