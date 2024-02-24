@@ -45,6 +45,7 @@ workflows:
           html-proofer: false
           destination: ${HUGO_OUTPUT_FOLDER}
           version: "0.123.3"
+          source: ~/project
       - deploy-to-github:
           requires:
             - hugo/build
