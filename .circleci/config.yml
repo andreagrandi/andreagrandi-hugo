@@ -31,7 +31,7 @@ jobs:
             # go into directory and copy data we're interested in to that directory
             cd built_website
             echo "rsync built code with checked out code..."
-            rsync -r --exclude=.git --delete ../build/$HUGO_OUTPUT_FOLDER/ ./
+            rsync -r --exclude=.git --delete ~/build/$HUGO_OUTPUT_FOLDER/ ./
             # add, commit and push files
             echo "add files to git..."
             git add -f .
