@@ -9,7 +9,7 @@ comments: false
 ### Profile
 
 -   Name: **Andrea Grandi**
--   Where I live: Pavia, Italy
+-   Where I live: Italy
 -   e-mail: **a.grandi** \[AT\] **gmail** \[dot\] **com**
 -   GitHub: <https://github.com/andreagrandi>
 -   LinkedIn: <https://uk.linkedin.com/in/andreagrandi>
@@ -24,7 +24,7 @@ Agile environment where Test Driven Development and Continuous
 Integration are the norm and where I can balance my work between writing
 code, pairing and mentoring junior developers.
 
-### **Current position:** Backend Software Engineer at LaterPay (remote)
+### **Current position:** Backend Software Engineer at Supertab (remote)
 
 ### Skills
 
@@ -38,8 +38,9 @@ code, pairing and mentoring junior developers.
 
 ### Professional Experience
 
-**January 2019 / present - Backend Software Engineer at LaterPay (remote):**
-I’m working as Python/Django backend developer for LaterPay, a company with a fully distributed and remote team.
+**January 2019 / present - Backend Software Engineer at Supertab (remote):**
+I’m working as Python/Django backend developer for Supertab (formerly known as LaterPay), 
+a company with a fully distributed and remote team.
 In my current role I have the opportunity to work on a backend service which uses Django, Django Rest Framework
 and it’s based on a PostgreSQL database.
 

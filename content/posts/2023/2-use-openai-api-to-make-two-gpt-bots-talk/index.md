@@ -18,6 +18,7 @@ tags:
 slug: "use-openai-api-to-make-two-gpt-bots-talk"
 draft: false
 description: "Use OpenAI API to make two GPT bots talk to each other"
+image: two-chatgpt-robots.jpeg
 ---
 
 I wanted to learn how to use OpenAI API in Python, so I decided to make it fun and created an interesting experiment: what would happen if I let two GPT powered bots "talk" to each other? Let's find out!
