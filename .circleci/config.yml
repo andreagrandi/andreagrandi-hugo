@@ -8,7 +8,7 @@ executors:
 jobs:
   deploy-to-github:
     executor: base-image-executor
-    working_directory: ~/repo
+    # working_directory: ~/repo
     environment:
       BRANCH: master
       TARGET_REPO: andreagrandi/andreagrandi.github.io.git
@@ -18,11 +18,11 @@ jobs:
           name: "Install system dependencies"
           command: |
             sudo apt-get update && sudo apt-get install -y rsync
-      - deploy:
+      - run:
           name: Deploy static pages to Github Pages
           command: |
             echo -e "Starting to deploy to Github Pages\n"
-            cd ~/repo
+            # cd ~/repo
             git config --global user.email "builds@circleci.com"
             git config --global user.name "CircleCI"
             # using token clone gh-pages branch
