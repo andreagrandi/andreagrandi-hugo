@@ -18,6 +18,7 @@ tags:
 slug: "how-to-use-openai-api-for-chatgpt-in-python"
 draft: false
 description: "How to use the OpenAI API for ChatGPT in Python"
+image: python-chatgpt.jpeg
 ---
 
 OpenAI is a research organization that develops and promotes friendly AI for the betterment of humanity. One of its most popular projects is the development of the GPT (Generative Pre-trained Transformer) series, which includes ChatGPT, a large language model trained to generate human-like text based on given prompts. In this blog post, we'll show you how to use the OpenAI API for ChatGPT with Python examples.
