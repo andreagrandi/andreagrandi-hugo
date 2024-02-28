@@ -8,13 +8,13 @@ comments: false
 
 ### Profile
 
--   Name: **Andrea Grandi**
--   Where I live: Italy
--   e-mail: **a.grandi** \[AT\] **gmail** \[dot\] **com**
--   GitHub: <https://github.com/andreagrandi>
--   LinkedIn: <https://uk.linkedin.com/in/andreagrandi>
+- Name: **Andrea Grandi**
+- Where I live: Italy
+- e-mail: **mail** \[AT\] **andreagrandi** \[dot\] **it**
+- GitHub: <https://github.com/andreagrandi>
+- LinkedIn: <https://www.linkedin.com/in/andreagrandi/>
 
-In my 15 years' experience in professional software development, I
+In my 20+ years' experience in professional software development, I
 started with .Net/C\# language, continued my career in mobile
 development (Nokia platforms, Qt/C++) to finally become a Python/Django
 backend developer. During these years I also became an expert user and
@@ -28,13 +28,13 @@ code, pairing and mentoring junior developers.
 
 ### Skills
 
--   languages: Python, Go, C\#, Java, C++
--   frameworks: Django, Django Rest Framework, Flask
--   databases: PostgreSQL, MySQL, MS-SQL and MongoDB
--   other technologies: RabbitMQ
--   methodologies: Test Driven Development, Agile (Sprint, Kanban)
--   cloud and PaaS: Amazon AWS, Heroku, CloudFoundry, Docker
--   automation: Ansible
+- languages: Python, Go, C\#, Java, C++
+- frameworks: Django, Django Rest Framework, Flask
+- databases: PostgreSQL, MySQL, MS-SQL and MongoDB
+- other technologies: RabbitMQ
+- methodologies: Test Driven Development, Agile (Sprint, Kanban)
+- cloud and PaaS: Amazon AWS, Heroku, CloudFoundry, Docker
+- automation: Ansible
 
 ### Professional Experience
 
@@ -141,26 +141,26 @@ magazine.
 
 ### Conferences and Talks
 
--   **April 2018** - Practical Machine Learning with Python and scikit-learn
+- **April 2018** - Practical Machine Learning with Python and scikit-learn
     (PyCon Italy)
--   **April 2017** - Getting Started with requests HTTP library
+- **April 2017** - Getting Started with requests HTTP library
     (PyCon Italy)
--   **September 2016** - Getting Started with requests HTTP library
+- **September 2016** - Getting Started with requests HTTP library
     (PyCon UK)
--   **April 2016** - Getting Started with BBC micro:bit (PyCon Italy)
--   **January 2016** - Django ligthning talks (FOSDEM)
--   **January 2012** - QtDay Italy: Introduction to QtAmbassador program
--   **May 2010** - PySide: Python Bindings for the Qt Framework (PyCon
+- **April 2016** - Getting Started with BBC micro:bit (PyCon Italy)
+- **January 2016** - Django ligthning talks (FOSDEM)
+- **January 2012** - QtDay Italy: Introduction to QtAmbassador program
+- **May 2010** - PySide: Python Bindings for the Qt Framework (PyCon
     Italy)
--   **October 2009** - python-mafw: MAFW framework for Python developers
+- **October 2009** - python-mafw: MAFW framework for Python developers
     (Maemo Summit)
--   **September 2008** - ESBox and Pluthon Eclipse plugins: how to use
+- **September 2008** - ESBox and Pluthon Eclipse plugins: how to use
     Eclipse to develop Maemo applications (Maemo Summit)
--   **May 2008** - PyMaemo: Python for Nokia Internet Tablet (PyCon
+- **May 2008** - PyMaemo: Python for Nokia Internet Tablet (PyCon
     Italy)
 
 ### Languages Knowledge
 
--   **Italian:** native
--   **English:** fluent
--   **Spanish:** basic
+- **Italian:** native
+- **English:** fluent
+- **Spanish:** basic
