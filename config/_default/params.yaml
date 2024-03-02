@@ -5,7 +5,7 @@ featuredImageField: image
 rssFullContent: true
 footer:
   since: 2007
-  customText: source code available on <a href="https://github.com/andreagrandi/andreagrandi.it">GitHub</a>
+  customText: source code available on <a href="https://github.com/andreagrandi/andreagrandi-hugo">GitHub</a>
 sidebar:
   # emoji: 🦕
   subtitle: Software Developer
