@@ -62,7 +62,7 @@ Any unknown metadata is usually ignored by static websites generators (at least 
 
 While I hope iA will consider giving alternative options in the future, I've written a simple script you can use to remove all Authorship blocks from any MarkDown file found in your content.
 
-{{< gist user 800e5e33ec05f8d51f61a1cdc4fc4d91 strip-annotation.sh >}}
+{{< gist andreagrandi 800e5e33ec05f8d51f61a1cdc4fc4d91 strip-annotation.sh >}}
 
 Please note that this will remove any Authorship block from your MarkDown files, even if you include them in a code block. If you want to improve the script, feel free to do it and let me know.
 
