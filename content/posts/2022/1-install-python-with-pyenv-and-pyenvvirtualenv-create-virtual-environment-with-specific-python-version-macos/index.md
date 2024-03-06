@@ -126,6 +126,7 @@ cd test-310
 
 At this point you can verify that the virtual environment is working, by using `python --version`:
 
+```shell
 (my-310-python) ➜  test-310 python --version
 Python 3.10.0
-
+```
