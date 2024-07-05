@@ -49,7 +49,7 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: false
-          version: "0.123.3"
+          version: "0.128.2"
       - deploy-to-github:
           requires:
             - hugo/build
