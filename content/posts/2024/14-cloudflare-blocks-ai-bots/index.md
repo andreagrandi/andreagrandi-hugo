@@ -18,17 +18,17 @@ description: "Cloudflare has added a new feature that allows you to easily block
 image: "cloudflare-ai-bots-settings.png"
 ---
 
-If you own a website and you don't want AI bots to crawl it and you are already using Cloudflare, you are in luck. Cloudflare has recently added a new feature that allows people to easily block AI bots from crawling their website.
+If you own a website and you don't want AI bots to crawl it and you are already using Cloudflare, you are in luck. **Cloudflare** has recently added a new feature that allows people to **easily block AI bots** from crawling their website.
 
 ## Setup
 
-To enable this feature, you need to login to your Cloudflare account, go to the **"Security"** section and then click on the **"Bots"** link.
+To enable this feature, you need to login to your Cloudflare account, select the website and once you are in the dashboard, go to the **"Security"** section and finally click on the **"Bots"** link.
 
 ![](cloudflare-ai-bots-settings-menu.png)
 
 From there you need to enable both **"Bot Fight Mode"** and **"Block AI Scrapers and Crawlers"**.
 
-Yes, it's that simple! And you will be happy to know that this feature is available to all Cloudflare users, even those on the **free** plan.
+Yes, it's that simple! And you will be happy to know that this feature is **available to all Cloudflare users**, even those on the **free** plan.
 
 ## Does it really work?
 
