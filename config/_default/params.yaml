@@ -46,7 +46,7 @@ colorScheme:
   default: light
 
 comments:
-  enabled: true
+  enabled: false
   provider: disqus
 
 article:
