@@ -3,7 +3,10 @@ languageCode: en-us
 title: Andrea Grandi
 schema: true
 permalinks:
-   page:
-     posts: /posts/:slug/
+  page:
+    posts: /posts/:slug/
 paginate: 5
 disqusShortname: andrea-grandi-it
+services:
+  rss:
+    limit: 30
