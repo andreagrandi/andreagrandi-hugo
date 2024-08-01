@@ -12,6 +12,8 @@ tags:
 - Debian
 slug: "how-to-configure-edimax-ew-7811un-wifi-dongle-on-raspbian"
 draft: false
+aliases:
+  - /2014/09/02/how-to-configure-edimax-ew-7811un-wifi-dongle-on-raspbian/
 ---
 
 If you want to connect your **RaspberryPi** to your home network and you

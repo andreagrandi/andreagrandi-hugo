@@ -15,6 +15,8 @@ tags:
 - Ubuntu
 slug: "using-twitter-bootstrap-with-node-js-express-and-jade"
 draft: false
+aliases:
+  - /2013/02/24/using-twitter-bootstrap-with-node-js-express-and-jade/
 ---
 
 I've decided to write this post as a note to myself. I'm still learning

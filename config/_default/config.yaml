@@ -10,3 +10,4 @@ disqusShortname: andrea-grandi-it
 services:
   rss:
     limit: 30
+uglyURLs: false
