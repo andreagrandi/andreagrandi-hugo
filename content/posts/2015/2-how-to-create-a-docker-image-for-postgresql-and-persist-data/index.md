@@ -13,6 +13,8 @@ tags:
 - postgresql
 slug: "how-to-create-a-docker-image-for-postgresql-and-persist-data"
 draft: false
+aliases:
+  - /2015/02/21/how-to-create-a-docker-image-for-postgresql-and-persist-data/
 ---
 
 Before I start, let me confirm to you that official

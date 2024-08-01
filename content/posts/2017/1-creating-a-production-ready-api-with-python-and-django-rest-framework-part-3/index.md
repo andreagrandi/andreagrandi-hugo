@@ -12,6 +12,8 @@ tags:
 - tutorial
 slug: "creating-a-production-ready-api-with-python-and-django-rest-framework-part-3"
 draft: false
+aliases:
+  - /2017/03/12/creating-a-production-ready-api-with-python-and-django-rest-framework-part-3/
 ---
 
 In the [previous

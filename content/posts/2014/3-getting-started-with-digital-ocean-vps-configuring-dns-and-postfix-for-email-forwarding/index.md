@@ -12,6 +12,8 @@ tags:
 - email
 slug: "getting-started-with-digital-ocean-vps-configuring-dns-and-postfix-for-email-forwarding"
 draft: false
+aliases:
+  - /2014/08/31/getting-started-with-digital-ocean-vps-configuring-dns-and-postfix-for-email-forwarding/
 ---
 
 I have recently migrated my website from a shared hosting to a dedicated

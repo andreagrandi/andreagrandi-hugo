@@ -9,6 +9,8 @@ tags:
 - dns
 slug: "configuring-ddclient-to-update-your-dynamic-dns-at-noip-com"
 draft: false
+aliases:
+  - /2014/09/02/configuring-ddclient-to-update-your-dynamic-dns-at-noip-com/
 ---
 
 [**noip.com**](http://noip.com) is one of the few dynamic DNS free

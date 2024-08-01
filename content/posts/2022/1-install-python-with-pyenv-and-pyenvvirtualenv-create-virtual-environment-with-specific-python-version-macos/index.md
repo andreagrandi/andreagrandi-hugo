@@ -19,6 +19,8 @@ tags:
 slug: "install-python-with-pyenv-and-pyenvvirtualenv-create-virtual-environment-with-specific-python-version-macos"
 draft: false
 description: "How to use pyenv and pyenv-virtualenv to install a specific version of Python and create a virtual environment with that version on MacOS"
+aliases:
+  - /2022/01/29/install-python-with-pyenv-and-pyenvvirtualenv-create-virtual-environment-with-specific-python-version-macos/
 ---
 
 This is an update version of my previous tutorial [Install Python with pyenv and pyenv-virtualenv create virtual environment with specific Python version]({filename}/2020/4-install-python-with-pyenv-create-virtualenv.md). In this version I will show how to install Python 3.10.0 and create a virtual environment with that version.
