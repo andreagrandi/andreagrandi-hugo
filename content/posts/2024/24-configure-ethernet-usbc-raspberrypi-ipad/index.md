@@ -16,8 +16,7 @@ slug: "howto-configure-ethernet-connection-ipad-raspberrypi-usbc"
 description: "This tutorial explains how to configure an Ethernet connection between an iPad and a RaspberryPi using the USB-C port."
 ---
 
-I recently found out that not only **you can power a RaspberryPi device through the USB-C** of an iPad but that 
-you can also **get an ethernet connection** through it
+I recently found out (thanks to [this article](https://hamatti.org/posts/my-on-the-go-solution-with-ipad-and-raspberry-pi/) from **Juha-Matti Santala**) that not only **you can power a RaspberryPi device through the USB-C** of an iPad but that you can also **get an ethernet connection** through it
 
 ## Requirements
 
@@ -25,6 +24,7 @@ you can also **get an ethernet connection** through it
 - a **USB-C cable** (I used the one that comes with the iPad)
 - a **RaspberryPi** (you need at least a RPI 4. I used a RPi 5)
 - you already have **SSH access to the RaspberryPi** (I won't cover this part in this tutorial)
+- an updated bootloader on the RaspberryPi (check [this documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#update-the-bootloader))
 
 ## Configuration
 
