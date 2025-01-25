@@ -1,10 +1,10 @@
 version: 2.1
 orbs:
-  hugo: circleci/hugo@1.3.1
+  hugo: circleci/hugo@1.4.0
 executors:
   base-image-executor:
     docker:
-      - image: cimg/go:1.22.0
+      - image: cimg/go:1.23.5
 jobs:
   deploy-to-github:
     executor: base-image-executor
@@ -49,7 +49,7 @@ workflows:
     jobs:
       - hugo/build:
           html-proofer: false
-          version: "0.128.2"
+          version: "0.142.0"
       - deploy-to-github:
           requires:
             - hugo/build
