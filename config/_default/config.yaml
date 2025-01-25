@@ -5,7 +5,8 @@ schema: true
 permalinks:
   page:
     posts: /posts/:slug/
-paginate: 5
+pagination:
+  pagerSize: 5
 disqusShortname: andrea-grandi-it
 services:
   rss:
