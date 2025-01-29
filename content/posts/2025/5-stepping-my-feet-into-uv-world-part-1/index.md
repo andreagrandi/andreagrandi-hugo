@@ -12,6 +12,12 @@ tags:
 - pip
 - rust
 - nox
+- speed
+- performance
+- astral
+- pyenv
+- package
+- manager
 slug: "stepping-my-feet-into-uv-world-part-1"
 description: "I just started using uv for a few things and I'm sharing my experience."
 image: "uv-speed.png"
