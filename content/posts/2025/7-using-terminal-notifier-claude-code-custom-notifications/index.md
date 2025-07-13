@@ -39,9 +39,36 @@ brew install terminal-notifier
 ## Using terminal-notifier with Claude Code
 
 Claude Code can be configured to use `terminal-notifier` for sending notifications in different ways. The most realiable (and deterministic)
-would be using the new `/hooks` feature, but honestly I couldn't make it work.
+is using the new `/hooks` feature. Add this configuration to your `~/.claude/settings.json`:
 
-The other method (which works for me, but I warn you that is not deterministic - ie: it depends on the intepretation of the model)
+```json
+"hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -title \"🔔 Claude Code\" -message \"Claude needs your input\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -title \"✅ Claude Code\" -message \"The task has been completed\""
+          }
+        ]
+      }
+    ]
+  }
+```
+
+The other method (not deterministic, but you can customise the message you get)
 is to add instructions to your global or project-specific `CLAUDE.md` file:
 
 ```markdown
