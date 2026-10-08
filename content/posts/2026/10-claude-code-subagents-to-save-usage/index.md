@@ -60,7 +60,7 @@ Creating the agents is not enough. Claude Code decides when to call a subagent b
 This is what usually happens when I give Claude Code a task:
 
 1. I give the main session an issue number.
-2. If the session doesn't know the code yet, it runs `scoper`. Haiku reads the issue, finds the files and the tests involved and writes a short brief with file paths. A small model can get things wrong, so the main session opens a few of those files before trusting the brief.
+2. Unless the change only touches a few files the session has already read, it runs `scoper`. Haiku reads the issue, finds the files and the tests involved and writes a short brief with file paths. A small model can get things wrong, so the main session opens a few of those files before trusting the brief. Checks that need the network, such as looking at live data from an API, stay with the main session.
 3. The main session decides how to implement the change. This is the part where Opus is worth it.
 4. It passes the plan to `implementer`, together with the acceptance criteria, the files, the decisions already taken and the commands to run. Sonnet writes the code and the tests and runs them until they pass.
 5. The main session reads the diff, compares it with the plan and runs the whole test suite. If something is wrong, it sends the fix back to the same implementer with `SendMessage`, so the implementer doesn't lose its context.
@@ -102,7 +102,8 @@ This is a standing request to use subagents. Do not wait for me to ask.
 ## Scope unfamiliar tasks with the scoper agent
 
 - At the start of a non-trivial task whose code you do not know yet, run the `scoper` agent to collect the goal, acceptance criteria, relevant files, tests and suggested slices.
-- Skip it when the task is small, when you already know the relevant code from this session, or when a project skill such as a ticket-size assessment already covers the same discovery.
+- Skip it only when you expect to read 3 or fewer files you have not already read in this session.
+- A project skill's ticket-size assessment uses scoper's report and does not replace it. Data or network checks that scoper cannot run stay with the main session and must not be skipped.
 - Treat its report as input, not as a decision. It runs on a small model, so spot-check the files it names before you build a plan on them. You still own scope, architecture and any split-or-combine decision.
 - If it flags the task as complex, ambiguous or risky, plan it yourself.
 
@@ -294,7 +295,7 @@ Do not manufacture findings merely to produce a review.
 ````markdown
 ---
 name: scoper
-description: Use at the start of a non-trivial coding task when the relevant code is unfamiliar, to gather scope, acceptance criteria, relevant code, tests and implementation boundaries before planning. Skip it when the main session already knows the code involved.
+description: Use at the start of a non-trivial coding task when the relevant code is unfamiliar, to gather scope, acceptance criteria, relevant code, tests and implementation boundaries before planning. Skip it only when the main session expects to read 3 or fewer files it has not already read.
 model: haiku
 effort: medium
 tools: Read, Grep, Glob, Bash
