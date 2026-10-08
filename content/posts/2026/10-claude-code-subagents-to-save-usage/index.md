@@ -101,11 +101,11 @@ This is a standing request to use subagents. Do not wait for me to ask.
 
 ## Scope unfamiliar tasks with the scoper agent
 
-- At the start of a non-trivial task whose code you do not know yet, run the `scoper` agent to collect the goal, acceptance criteria, relevant files, tests and suggested slices.
+- At the start of a non-trivial task whose code you do not know yet, run the `scoper` agent to collect the goal, acceptance criteria, relevant files, tests and a possible split.
 - Skip it only when you expect to read 3 or fewer files you have not already read in this session.
 - A project skill's ticket-size assessment uses scoper's report and does not replace it. Data or network checks that scoper cannot run stay with the main session and must not be skipped.
 - Treat its report as input, not as a decision. It runs on a small model, so spot-check the files it names before you build a plan on them. You still own scope, architecture and any split-or-combine decision.
-- If it flags the task as complex, ambiguous or risky, plan it yourself.
+- You always write the plan. When the scoper flags the task as complex, ambiguous or risky, read the key files it names yourself before planning, instead of spot-checking.
 
 ## Ship with the shipper agent
 
@@ -347,10 +347,15 @@ Focused test commands, and the end-to-end check on the real surface if the chang
 ## Risks and unknowns
 Only uncertainties that could change the implementation.
 
-## Suggested slices
-If the work splits into independent pieces, list them with the files each one owns and the order they depend on.
+## Possible split
+Facts only: which files and tests group together, and which pieces depend on others. Do not propose an order of work.
 
-If the task looks architecturally complex, ambiguous or risky, say so at the top of the report and recommend that the parent agent plan it, rather than trying to resolve the design yourself.
+If the task is complex, say so at the top of the report and name which of these conditions apply, citing the code, so the parent checks the brief closely:
+- it touches more than one subsystem;
+- it changes a published format, schema, public API or CLI;
+- it involves concurrency, security, a migration or cached data;
+- the issue has no acceptance criteria, or criteria that contradict the code;
+- you could not find where the behaviour lives.
 
 Keep the report short. Its purpose is to save the parent agent from repeating repository discovery, so leave out anything it would not act on.
 ````
